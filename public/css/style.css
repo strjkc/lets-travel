@@ -1,0 +1,89 @@
+.mg-20{
+    margin-top: 20px;
+}
+.admin-form{
+    width: 50%;
+    height: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+.admin-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+}
+.table-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.login-body, .nav-wrapper, .content-wrapper, .main-content-wrapper {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.main-content-wrapper{
+    margin-top: 50px;
+}
+.post-button{
+    margin-bottom: 20px;
+}
+.table .table-row:nth-of-type(2n - 1){
+    background-color: lightgray;
+}
+.table-row{
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.article-form{
+    display: none;
+    flex-direction: column;
+}
+#article-file{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-form{
+    width: 103px;
+}
+.article-edit{
+    display: none;
+    flex-direction: column;
+}
+.login-body{
+    width: 40%;
+    margin-top: 50px;
+}
+.admin-login-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.login-body form {
+    margin-top: 16px;
+}
+.card-body p{
+    max-height: 250px;
+    overflow: hidden;
+    word-break: break-all;
+}
